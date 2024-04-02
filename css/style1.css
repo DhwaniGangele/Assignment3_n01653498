@@ -1,0 +1,80 @@
+/* Dhwani Vaibhav Gangele */
+/* n01653498 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/changecalculator.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  p{
+    font-size: 14px;
+    text-align: center;
+}
+p a{
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+  .calculator {
+    width: 365px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin-top: 55px;
+    border: 3px solid #8b3ba3;
+    box-shadow: 5px 5px 5px #8b3ba3;
+   }
+   
+   .calculator h2 {
+    text-align: center;
+    color: #333;
+   }
+  h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+  }
+  
+  button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  #calculate {
+    background-color: rgb(16 16 16 / 74%);
+  }
+  
+  #quarters,
+  #dimes,
+  #nickels,
+  #pennies {
+    margin-top: 10px;
+  }
